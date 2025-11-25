@@ -25,7 +25,30 @@ body {
     margin-bottom:30px;
 }
 .readable_text_box {
+  display:flex;
   border: 5px solid rgb(200,200,200,.3);
-  font: 600 16px arial;
+  font: 500 28px arial;
   background: rgb(255,255,255,.3);
+  text-align: center;
+  align-content: center !important;
+}
+img {
+  display: block;
+  width: 90%;
+  height: auto;
+/*  aspect-ratio:3/2;*/
+  overflow:hidden;
+  
+  max-height: 927px;
+/*  max-width: 741px;*/
+}
+.col-6 {
+  display: flex !important;
+  justify-content: center !important;
+  align-content: center !important;
+  text-align:center;
+
+}
+.row{
+    margin-bottom:30px;
 }
